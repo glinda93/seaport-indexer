@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "AmountDeriver",
+  "sourceName": "contracts/lib/AmountDeriver.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "InexactFraction",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60808060405234601357603a908160198239f35b600080fdfe600080fdfea2646970667358221220e0ec9f8d27b2ebe392e24b9b28f29d603ffe866d08ffff50184f6475efb5ee7b64736f6c634300080e0033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220e0ec9f8d27b2ebe392e24b9b28f29d603ffe866d08ffff50184f6475efb5ee7b64736f6c634300080e0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

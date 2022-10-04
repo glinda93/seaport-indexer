@@ -1,0 +1,45 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "InvalidERC721Recipient",
+  "sourceName": "contracts/test/InvalidERC721Recipient.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC721Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610150908161001c8239f35b600080fdfe608080604052600436101561001357600080fd5b6000803560e01c63150b7a021461002957600080fd5b346100c85760807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100c8576100606100cf565b506100696100f7565b5060643567ffffffffffffffff8082116100cb57366023830112156100cb5781600401359081116100cb57369101602401116100c857507fabcd0000000000000000000000000000000000000000000000000000000000008152602090f35b80fd5b8280fd5b6004359073ffffffffffffffffffffffffffffffffffffffff821682036100f257565b600080fd5b6024359073ffffffffffffffffffffffffffffffffffffffff821682036100f25756fea2646970667358221220e855b910e86b8634b98398ad5868b2489816a13b8b06e8741ecc5aa18085008364736f6c634300080e0033",
+  "deployedBytecode": "0x608080604052600436101561001357600080fd5b6000803560e01c63150b7a021461002957600080fd5b346100c85760807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100c8576100606100cf565b506100696100f7565b5060643567ffffffffffffffff8082116100cb57366023830112156100cb5781600401359081116100cb57369101602401116100c857507fabcd0000000000000000000000000000000000000000000000000000000000008152602090f35b80fd5b8280fd5b6004359073ffffffffffffffffffffffffffffffffffffffff821682036100f257565b600080fd5b6024359073ffffffffffffffffffffffffffffffffffffffff821682036100f25756fea2646970667358221220e855b910e86b8634b98398ad5868b2489816a13b8b06e8741ecc5aa18085008364736f6c634300080e0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
