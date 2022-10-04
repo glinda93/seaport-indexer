@@ -9,8 +9,6 @@ export const pool = new Pool({
   connectionString: config.db.connectionUrl,
 });
 
-console.log(config.db.connectionUrl);
-
 let connection: PoolClient | null = null;
 
 export const getConnection = async (): Promise<PoolClient> => {
