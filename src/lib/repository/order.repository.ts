@@ -15,7 +15,7 @@ export class OrderRepository {
     const chunks = chunk(events, this.chunkSize);
     for (const chunk of chunks) {
       await Promise.all(
-        chunk.map((event) => this.storeOrderFulFilledEvent(event))
+        chunk.map((event) => this.storeOrderFulFilledEventTransaction(event))
       );
     }
   }
