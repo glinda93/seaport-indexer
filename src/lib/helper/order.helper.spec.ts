@@ -13,36 +13,36 @@ describe(parseOrderFulfilledEvent, () => {
         },
         "orderItems": [
           {
-            "amount": 1,
+            "amount": "1",
             "orderId": "0xc5058473c791384ab3a1003d9ada3c02bde789d68b34e2ed08f4972be9b6a600",
             "tokenAddress": "0x321128d13C5FF3aef9bDC41d948802e1Baf580Eb",
-            "tokenId": 1955,
+            "tokenId": "1955",
           },
         ],
         "payments": [
           {
-            "amount": 6956999999999999,
+            "amount": "6956999999999999",
             "orderId": "0xc5058473c791384ab3a1003d9ada3c02bde789d68b34e2ed08f4972be9b6a600",
             "tokenAddress": "0x0000000000000000000000000000000000000000",
-            "tokenId": 0,
+            "tokenId": "0",
           },
           {
-            "amount": 193250000000000,
+            "amount": "193250000000000",
             "orderId": "0xc5058473c791384ab3a1003d9ada3c02bde789d68b34e2ed08f4972be9b6a600",
             "tokenAddress": "0x0000000000000000000000000000000000000000",
-            "tokenId": 0,
+            "tokenId": "0",
           },
           {
-            "amount": 386500000000000,
+            "amount": "386500000000000",
             "orderId": "0xc5058473c791384ab3a1003d9ada3c02bde789d68b34e2ed08f4972be9b6a600",
             "tokenAddress": "0x0000000000000000000000000000000000000000",
-            "tokenId": 0,
+            "tokenId": "0",
           },
           {
-            "amount": 193250000000000,
+            "amount": "193250000000000",
             "orderId": "0xc5058473c791384ab3a1003d9ada3c02bde789d68b34e2ed08f4972be9b6a600",
             "tokenAddress": "0x0000000000000000000000000000000000000000",
-            "tokenId": 0,
+            "tokenId": "0",
           },
         ],
       }
